@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <small>&copy; {{ site.title }} — {{ site.time | date: '%Y' }}</small>
+    </footer>
+
+    <!-- bundled js, built by esbuild to assets/build/main.js -->
+    <script src="{{ '/assets/build/main.js' | relative_url }}" defer></script>
+  </body>
+  </html>
+

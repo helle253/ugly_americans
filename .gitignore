@@ -1,0 +1,8 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+node_modules/
+assets/build/*.map
+*.log
+
