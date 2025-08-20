@@ -4,7 +4,7 @@ theme: minima
 
 # ensure links work both locally and on pages
 url: ""
-baseurl: ""
+baseurl: "/ugly_americans"
 
 markdown: kramdown
 
