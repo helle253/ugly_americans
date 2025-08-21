@@ -27,3 +27,8 @@ exclude:
 include:
   - assets/build
 
+collections:
+  pages:
+    output: true
+    permalink: "/pages/:name/"
+
