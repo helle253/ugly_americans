@@ -31,4 +31,7 @@ collections:
   pages:
     output: true
     permalink: "/pages/:name/"
+  screeds:
+    output: true
+    permalink: "/screeds/:name/"
 

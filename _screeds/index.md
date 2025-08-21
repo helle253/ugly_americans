@@ -1,13 +1,13 @@
 ---
 layout: default
-title: pages
-permalink: /pages/
+title: screeds
+permalink: /screeds/
 ---
 
-## pages
+## screeds
 
 
-{% assign docs = site.pages | sort: 'title' %}
+{% assign docs = site.screeds | sort: 'title' %}
 {% for doc in docs %}
   - <a href="{{ doc.url | relative_url }}">{{ doc.title | default: doc.basename }}</a>
 {% endfor %}
