@@ -8,7 +8,7 @@ function renderWelcome(): void {
   }
 
   js_container.innerHTML = `
-    <p class="mt-2 text-sm text-gray-600">
+    <p class="text-sm text-gray-600">
       ${quotes[Math.floor(Math.random() * quotes.length)]}
     </p>
   `;
